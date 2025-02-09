@@ -22,6 +22,7 @@ x-n8n: &service-n8n
     - WEBHOOK_URL=https://n8nmac.itnetgg.fr/
     - N8N_HOST=n8nmac.itnetgg.fr
     - N8N_PROTOCOL=https
+    - N8N_PORT=443
     - OLLAMA_HOST=ollama:11434
 
 x-ollama: &service-ollama
